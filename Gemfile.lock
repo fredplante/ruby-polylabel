@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    polylabel (0.1.0)
+      pqueue (~> 2.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.15.0)
+    pqueue (2.1.0)
+    rake (13.0.6)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  polylabel!
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.2.32
