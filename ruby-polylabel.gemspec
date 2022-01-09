@@ -3,7 +3,7 @@
 require_relative "lib/polylabel/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "polylabel"
+  spec.name = "ruby-polylabel"
   spec.version = Polylabel::VERSION
   spec.authors = ["Frédéric Planté"]
   spec.email = ["frederic.jean.plante@gmail.com"]

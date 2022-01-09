@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    polylabel (0.1.0)
+    ruby-polylabel (0.1.0)
       pqueue (~> 2.1.0)
 
 GEM
@@ -16,8 +16,8 @@ PLATFORMS
 
 DEPENDENCIES
   minitest (~> 5.0)
-  polylabel!
   rake (~> 13.0)
+  ruby-polylabel!
 
 BUNDLED WITH
    2.2.32
