@@ -1,15 +1,16 @@
-# Polylabel
+# Ruby-Polylabel
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/polylabel`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is a ruby port of Mapbox's polylabel algorithm.
 
-TODO: Delete this and the text above, and describe your gem
+- Original repo: https://github.com/mapbox/polylabel
+- Blog post: https://www.mapbox.com/blog/polygon-center/
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'polylabel'
+gem "ruby-polylabel"
 ```
 
 And then execute:
@@ -22,7 +23,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require "polylabel"
+
+Polylabel.compute([[[0, 0], [1, 0], [2, 0], [0, 0]]]) # => {:x=>0, :y=>0, :distance=>0}
+
+Polylabel.compute([[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]]) # => {:x=>0.5, :y=>0.5, :distance=>0.5}
+```
 
 ## Development
 
