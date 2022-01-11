@@ -19,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install polylabel
+    $ gem install ruby-polylabel
 
 ## Usage
 
@@ -39,7 +39,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/polylabel.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fredplante/ruby-polylabel.
 
 ## License
 
